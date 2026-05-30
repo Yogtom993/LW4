@@ -1,0 +1,9 @@
+
+
+/* Empty placeholder for xs screens in task variant */
+.empty-xs {
+  min-height: 120px;
+  border: 2px dashed #b8c0cc;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
