@@ -7,3 +7,29 @@
   background-color: #f8f9fa;
   border-radius: 10px;
 }
+
+/* ЛР4: великий блок третього ряду зникає тільки на xs */
+.xs-big-block {
+  display: block !important;
+}
+
+.xs-empty-wrapper {
+  display: none !important;
+}
+
+@media (max-width: 575.98px) {
+  .xs-big-block {
+    display: none !important;
+  }
+
+  .xs-empty-wrapper {
+    display: block !important;
+  }
+
+  .xs-empty-space {
+    min-height: 120px;
+    border: 2px dashed #b8c0cc;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+}
